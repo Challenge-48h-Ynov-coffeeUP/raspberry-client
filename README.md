@@ -1,4 +1,5 @@
 Node.js / typescript / WebSocket server for Y-coffee
+feel free to dm MHD#0845 on discord if you have any questions / issues
 
 ## Usage
 You will need nodejs ( at least v16 ) and yarn
