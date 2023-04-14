@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "watch": "nodemon --interactive src/app.ts",
-    "start": "tsc && node ./dist/server/app.js"
+    "start": "tsc && node ./dist/server/app.js",
+    "package": "pkg ./dist/server/app.js --out-path ./dist/server"
   },
   "dependencies": {
     "@types/express": "^4.17.17",
@@ -14,6 +15,7 @@
     "express": "^4.18.2",
     "keypress": "^0.2.1",
     "nodemon": "^2.0.22",
+    "pkg": "^5.8.1",
     "socket.io": "^4.6.1",
     "socket.io-client": "^4.6.1",
     "ts-node": "^10.9.1",
